@@ -1,0 +1,60 @@
+html, body {
+  background-color: blanchedalmond;
+  scroll-behavior: smooth;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  width: 100%;
+  padding: 3rem 2rem 0;
+}
+
+
+.sidebar {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  width: 30%;
+  background: khaki;
+}
+
+.sidebar-title {
+  color: forestgreen;
+}
+
+.sidebar-content {
+  flex-flow: row wrap;
+  background-color: olive;
+}
+
+.ezio-img {
+  height: 4rem;
+  float: left;
+  margin-right: 1rem;
+  object-fit: contain;
+}
+
+.bio {
+  background-color: burlywood;
+  margin: 0;
+}
+
+.contact {
+  background-color: darkkhaki;
+}
+
+.site-content {
+  display: flex;
+  justify-content: center;
+  width: 70%;
+  background-color: teal;
+}
+
+.art-book {
+  width: 80%;
+  height: 90vh;
+}
