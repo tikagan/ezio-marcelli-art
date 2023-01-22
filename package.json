@@ -1,0 +1,29 @@
+{
+  "name": "ezio-marcelli-art",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "watch:scss": "sass -w assets/scss:assets/css ",
+    "compile:scss": "sass assets/scss/index.scss assets/css/index.css",
+    "concat:css": "concat -o css/index.css assets/index.concat.css assets/index.css ",
+    "build:css": "npm run compile:scss  && concat:css && watch:scss",
+    "watch": "nodemon -e scss -x 'npm run css'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tikagan/marcelli.github.io.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tikagan/marcelli.github.io/issues"
+  },
+  "homepage": "https://github.com/tikagan/marcelli.github.io#readme",
+  "devDependencies": {
+    "concat": "^1.0.3",
+    "nodemon": "^2.0.20",
+    "sass": "^1.57.1"
+  }
+}

@@ -1,0 +1,37 @@
+@import '_variables';
+
+.sidebar {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  width: 35%;
+  @include tablet {
+    width: 100%;
+  }
+}
+
+.sidebar-title {
+  font-family: 'Unbounded';
+  font-weight: 400;
+  font-size: 3.5rem;
+}
+
+.sidebar-content {
+
+}
+
+.ezio-img {
+  height: 4rem;
+  float: left;
+  margin-right: 1rem;
+  object-fit: contain;
+}
+
+.bio {
+  font-size: 1.25rem;
+  margin: 0;
+}
+
+.contact {
+  font-size: 1rem;
+}

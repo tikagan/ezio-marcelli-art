@@ -1,0 +1,15 @@
+@import '_variables';
+
+.page-content {
+  display: flex;
+  justify-content: flex-end;
+  width: 65%;
+  @include tablet {
+    width: 100%;
+  }
+}
+
+.art-book {
+  width: 95%;
+  height: 90vh;
+}

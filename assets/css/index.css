@@ -1,0 +1,95 @@
+.sidebar {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  width: 35%;
+}
+@media screen and (max-width: 850px) {
+  .sidebar {
+    width: 100%;
+  }
+}
+
+.sidebar-title {
+  font-family: "Unbounded";
+  font-weight: 400;
+  font-size: 3.5rem;
+}
+
+.ezio-img {
+  height: 4rem;
+  float: left;
+  margin-right: 1rem;
+  object-fit: contain;
+}
+
+.bio {
+  font-size: 1.25rem;
+  margin: 0;
+}
+
+.contact {
+  font-size: 1rem;
+}
+
+.page-content {
+  display: flex;
+  justify-content: flex-end;
+  width: 65%;
+}
+@media screen and (max-width: 850px) {
+  .page-content {
+    width: 100%;
+  }
+}
+
+.art-book {
+  width: 95%;
+  height: 90vh;
+}
+
+html, body {
+  background-color: #F7F7F7;
+  scroll-behavior: smooth;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Lustria";
+  font-size: 16px;
+  color: #26151A;
+  height: 100vh;
+}
+
+.main-container {
+  height: 100%;
+}
+
+.background {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.background .ribbon1 {
+  position: relative;
+  height: 100%;
+  width: 35%;
+  background: url(/assets/svgs/ribbon1.svg) 0 0/100% 100% no-repeat;
+}
+@media screen and (max-width: 850px) {
+  .background {
+    display: none;
+  }
+}
+
+.site-content {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  position: relative;
+  z-index: 1;
+  padding: 2rem 4rem 1rem 8rem;
+}
+
+/*# sourceMappingURL=index.css.map */
