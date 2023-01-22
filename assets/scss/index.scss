@@ -29,9 +29,10 @@ html, body {
     height: 100%;
     width: 35%;
     background: url(/assets/svgs/ribbon1.svg)0 0/ 100% 100% no-repeat ;
+    @include tablet {
+      transform: rotate(-90deg);
+      width: 85%;
   }
-  @include tablet {
-    display: none;
   }
 }
 
@@ -42,4 +43,8 @@ html, body {
   position: relative;
   z-index: 1;
   padding: 2rem 4rem 1rem 8rem;
+  @include tablet {
+    flex-direction: column;
+    padding: 2rem 3rem 2rem 1.5rem;
+  }
 }
