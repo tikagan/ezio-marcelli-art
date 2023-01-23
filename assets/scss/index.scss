@@ -28,7 +28,7 @@ html, body {
     position: relative;
     height: 100%;
     width: 35%;
-    background: url(assets/svgs/ribbon1.svg)0 0/ 100% 100% no-repeat ;
+    background: url(/assets/svgs/ribbon1.svg)0 0/ 100% 100% no-repeat ;
     @include tablet {
       transform: rotate(-90deg);
       width: 85%;
